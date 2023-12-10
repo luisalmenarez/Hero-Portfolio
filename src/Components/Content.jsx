@@ -148,7 +148,7 @@ export const Content = () => {
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
           }}
-          src="/public/2.jpg"
+          src="/2.jpg"
           alt="Image"
           className="w-40 h-40 object-cover rounded-2xl shadow-lg shadow-gray-500"
         />
@@ -161,7 +161,7 @@ export const Content = () => {
             hidden: { opacity: 0, x: 50 },
             visible: { opacity: 1, x: 0 },
           }}
-          src="/public/3.jpg"
+          src="/3.jpg"
           alt="Image"
           className="w-40 h-40 object-cover rounded-2xl shadow-lg shadow-gray-500"
         />
