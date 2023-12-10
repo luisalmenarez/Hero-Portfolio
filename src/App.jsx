@@ -4,12 +4,12 @@ import { Header } from "./Components/Header";
 
 export const App = () => {
   return (
-    <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 min-h-screen">
+    <main className="grid grid-cols-1 lg:grid-cols-12 min-h-screen">
       <section className="lg:col-span-4 h-screen">
         <img
           src="/1.jpg"
           alt="Image Profile"
-          className="h-full object-cover grayscale"
+          className="w-full h-full object-cover grayscale"
         />
         <motion.span
           initial={{ opacity: 0, x: -50 }}

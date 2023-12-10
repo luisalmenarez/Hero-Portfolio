@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export const Header = () => {
   return (
     <header className="container mx-auto">
-      <ul className="flex gap-8 p-5">
+      <ul className="flex flex-col sm:flex-row gap-14 sm:gap-8 p-5">
         <motion.li
           initial={{ opacity: 0, x: 50 }}
           whileInView="visible"

@@ -130,7 +130,7 @@ export const Content = () => {
         <button
           type="button"
           className="bg-pink-500 text-white px-10 py-3 rounded-full font-medium shadow-lg shadow-pink-500 ">
-          Here me
+          Speak!
         </button>
         <button
           type="button"
@@ -138,7 +138,7 @@ export const Content = () => {
           Portfolio
         </button>
       </motion.div>
-      <div className="flex justify-center gap-10">
+      <div className="flex flex-col md:flex-row justify-center gap-10">
         <motion.img
           initial="hidden"
           whileInView="visible"
@@ -150,7 +150,7 @@ export const Content = () => {
           }}
           src="/2.jpg"
           alt="Image"
-          className="w-40 h-40 object-cover rounded-2xl shadow-lg shadow-gray-500"
+          className="w-full md:w-72 h-52 object-cover rounded-2xl shadow-lg shadow-gray-500"
         />
         <motion.img
           initial="hidden"
@@ -163,7 +163,7 @@ export const Content = () => {
           }}
           src="/3.jpg"
           alt="Image"
-          className="w-40 h-40 object-cover rounded-2xl shadow-lg shadow-gray-500"
+          className="w-full md:w-72 h-52 object-cover rounded-2xl shadow-lg shadow-gray-500"
         />
       </div>
     </section>
